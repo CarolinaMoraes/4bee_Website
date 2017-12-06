@@ -428,8 +428,8 @@ font-family: "Bebas Neue";
 @media screen and (max-width: 1560px){
 	#mockupEsquerda{
 		width: 700px;
-		    margin-top: 10%;
-    margin-left: -4%;
+		margin-top: 10%;
+        margin-left: -4%;
 
 	}
 
@@ -438,6 +438,13 @@ font-family: "Bebas Neue";
 		    width: 25%;
 	}
 }
+
+@media screen and (max-width: 1300px){
+	.iphoneBranco{
+		display: none;
+	}
+}
+
 
 @media screen and (max-width: 1236px){
 	#mockupEsquerda{
