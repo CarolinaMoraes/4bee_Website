@@ -1,0 +1,659 @@
+@font-face{
+	font-family: "Bebas Neue";
+     src: url("../midia/BebasNeue.otf");
+}
+
+@font-family{
+	font-family: "Lora";
+	src:url("../midia/Lora-Regular.ttf");
+}
+
+body, html{
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #EDEDED;
+}
+
+h1{
+	font-family: "Bebas Neue";
+}
+
+p{
+	font-family: "Lora";
+}
+
+a{
+	color: white;
+	transition: color .2s;
+}
+
+a:hover{
+	color: #fab438;
+	text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: white !important;
+	transition: color .4s!important;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #fab438 !important;
+	
+}
+
+
+.btn-outline-warning {
+	color: #fab438 !important;
+    background-color: transparent!important;
+    background-image: none!im;
+    border-color: #fab438 !important;
+    transition: .2s background-color!important;
+    transition: .2s color!important;
+}
+
+.btn-outline-warning:hover {
+	color: white !important;
+	border-color: #fab438 !important;
+	background-color: #fab438 !important;
+}
+
+.banner{
+	width: 100%;
+	height: 950px;
+	background-image: url("../midia/fundoCompleto.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ 	margin: 0px 0px;
+ 	padding: 0px;
+ 	color: white;
+
+}
+
+.banner-container::after{
+	content: '';
+    display: block;
+  	width: 0;
+	height: 0;
+	border-bottom: 15.1vh solid #EDEDED;
+	border-left: 100vw solid transparent;
+	z-index: 0;
+	transform: translateY(-15vh);
+}
+
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: -7%;
+
+}
+
+.mainFilho{
+margin-top: 2%;
+flex: 1;
+flex-shrink: 1;
+max-width: 300px;
+min-width: 284px;
+}
+
+.mainFilho h4{
+	margin-top: 3.5%;
+	text-align: center;
+	font-family: "Bebas Neue";
+}
+
+.beneficiosIcones{
+	width: 35%;
+	margin-left: 30%;
+}
+
+.beneficios p{
+	width: 500px;
+    font-size: larger;
+    text-align: center;
+    margin-left: -30%;
+}
+
+
+.iphoneBranco{
+	margin-left: 70%;
+	width: 20%;
+  	top: 10%;
+    position: absolute;
+    z-index: 999;
+}
+
+.cabecalho{
+width: 100%;
+
+}
+
+.cabecalho nav{
+min-width: 300px;
+}
+
+
+.cabecalho nav a{
+padding-right: 50px;
+font-size: 200%;
+color: white;
+transition: color .2s;
+}
+
+
+.cabecalho nav a:hover{
+	color: black;
+}
+
+.texto-banner{
+
+    margin-top: 12%;
+    margin-left: 10%;
+}
+
+.texto-banner button{
+	width: 150px;
+    font-size: 20px;
+    padding-top: 5px;
+    white-space: normal !important;
+}
+
+.texto-banner h1{
+font-size: 72px;
+}
+
+.texto-banner p{
+	font-size: 26px;
+	width: 35%;
+}
+
+#mockupEsquerda{
+	width: 800px;
+    margin-left: 3.5%;
+}
+
+.hr{
+	margin-top: 3%;
+}
+
+h2{
+	margin-top: 3%;
+	text-align: center;
+	font-size: 100px;
+	font-family: "Bebas Neue";
+}
+
+.recursosPai{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: -7%;
+
+}
+
+.recursosPadastro{
+
+    margin-left: -10%;
+    margin-top: 14%;
+    flex: 1;
+    display: inline;
+
+}
+
+
+
+.underTitulo{
+	border: 5px solid #fab438;
+    width: 20%;
+    margin-top: 0px
+}
+
+
+.recursosFilho{
+	    margin-top: 5%
+}
+.mockupEsquerda{
+	    width: 1000px;
+}
+
+.celulares{
+	flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 28%;
+}
+
+.iconesPequenos img{
+
+    margin-top: -20%;
+    margin-left: -20%;
+
+}
+
+
+
+span{
+	font-weight: bold;
+}
+.android{
+	flex: 1;
+}
+
+.ios
+{
+	flex: 1;
+}
+
+.plataforma{
+	width: 8%;
+	margin-top: -25%;
+}
+
+.celulares p{
+	font-size: 24px;
+    margin-top: -50.3%;
+    margin-left: 73%;
+    width: 25%;
+}
+
+.celulares .mockup{
+	width: 35%;
+}
+
+
+
+.iconesSocial li{
+	  display: inline;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+
+/*rodape*/
+
+.col-lg-3 {
+	margin-left: auto;
+}
+
+.full {
+    width: 100%;	
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background-image: url(../midia/fundo2.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	margin-left: 250%;
+    max-width: 160%
+}
+.footer h3 {
+	    border-bottom: 1px solid #BAC1C8;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 40px 0 10px;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	text-align: center;
+}
+.footer ul li a {
+	font-family: "Segoe UI";
+    font-size: 30px;
+    margin-top: -3px;
+    padding: 0px 0 5px 0;
+    display: block;}
+.footer a {
+	font-size: 20px;
+	color: white;
+	transition: color .2s;
+}
+
+.socialmente{
+	margin-left: auto;
+}
+
+.social{
+	display:inline-flex;
+	width: 70%;
+}
+
+.social a{
+	padding-right: 20px;
+}
+
+.footer a:hover{
+	color:  #fab438;
+}
+.footer-bottom {
+	text-align: center
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+
+@media screen and (max-width: 800px){
+	.iphoneBranco{
+		display: none;
+	}	
+	.texto-banner p{
+		width: 100%;
+	}
+
+	#logo{
+		width: 150px;
+		height: 50px;
+	}
+
+	.beneficios p{
+	font-size: medium;
+    width: 100%;
+    margin-left: 0px;	}
+
+    .celulares p{
+   	margin-top: 3%;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    }
+}
+
+
+
+#listaIconesPai h3 {
+font-family: "Bebas Neue";
+}
+
+#listaIconesPai p{
+	font-family: "Lora";
+}
+
+
+
+#listaIconesPai ul {
+    margin-left: 5%;
+    margin-top: 45%;
+    
+}
+
+ #listaIconesPai li{
+	list-style: none;
+	font-size: larger;
+}
+
+#listaIconesPai li img{
+	margin-left: -30%;
+    margin-bottom: -20%;
+
+}
+
+#listaIconesPai{
+	margin-left: -15%;	
+}
+
+#mockupEsquerda{
+	margin-top: 5%;
+}
+
+@media screen and (max-width: 1560px){
+	#mockupEsquerda{
+		width: 700px;
+		    margin-top: 10%;
+    margin-left: -4%;
+
+	}
+
+
+	.iphoneBranco{
+		    width: 25%;
+	}
+}
+
+@media screen and (max-width: 1236px){
+	#mockupEsquerda{
+		width: 120%;
+		margin-top: 5%;
+	}
+
+	#listaIconesPai li{
+		margin-left: 20%;
+	    margin-top: 14%;
+	    list-style: none;
+	    font-size: larger;
+	}
+
+	#listaIconesPai li h3, p {
+		font-size: 106%;
+	}
+
+	#listaIconesPai li img{
+		margin-left: -20%;
+	    margin-bottom: -20%;
+	    width: 18%;
+	}
+
+	#listaIconesPai ul{
+		margin-left: 0%;
+    	margin-top: 0%;
+	}
+
+	.recursosFilhoMockup{
+		width: 55%;
+	}
+}
+
+	@media screen and (max-width: 1054px){
+	#mockupEsquerda{
+		width: 90%;
+	}
+
+	#listaIconesPai li{
+		margin-left: 0%;
+	    margin-top: 0%;
+	    list-style: none;
+	    font-size: larger;
+	}
+
+	#listaIconesPai li h3, p{
+		font-size: 106%;
+	}
+
+	#listaIconesPai li img{
+		margin-left: 0%;
+	    margin-bottom: 0%;
+	    width: 100px;
+	}
+
+	#listaIconesPai ul{
+		margin-left: 15%;
+    	margin-right: 15%;
+    	margin-top: 0%;
+    	text-align: center;
+	}
+
+	.recursosFilhoMockup{
+		width: 100%;
+	}
+
+}
+
+	@media screen and (max-width: 530px){
+	#mockupEsquerda{
+		width: 500px;
+	}
+
+	#listaIconesPai li{
+		margin-left: 0%;
+	    margin-top: 0%;
+	    list-style: none;
+	    font-size: larger;
+	}
+
+	#listaIconesPai li h3, p{
+		font-size: 106%;
+	}
+
+	#listaIconesPai li img{
+		margin-left: 0%;
+	    margin-bottom: 0%;
+	    width: 100px;
+	}
+
+	#listaIconesPai ul{
+		margin-left: 15%;
+    	margin-right: 15%;
+    	margin-top: 0%;
+	}
+
+	.recursosFilhoMockup{
+		width: 100%;
+	}
+
+
+}
+
+@media screen and (max-width: 462px){
+	#mockupEsquerda{
+		width: 425px;
+	}
+
+	#listaIconesPai li{
+		margin-left: 0%;
+	    margin-top: 0%;
+	    list-style: none;
+	    font-size: larger;
+	}
+
+	#listaIconesPai li h3, p{
+		font-size: 106%;
+	}
+
+	#listaIconesPai li img{
+		margin-left: 0%;
+	    margin-bottom: 0%;
+	    width: 100px;
+	}
+
+	#listaIconesPai ul{
+		margin-left: 15%;
+    	margin-right: 15%;
+    	margin-top: 0%;
+	}
+
+	.recursosFilhoMockup{
+		width: 100%;
+		margin-left: -5%;
+	}
+
+
+}
+
+@media screen and (max-width: 360px){
+	#mockupEsquerda{
+		width: 425px;
+	}
+
+	#listaIconesPai li{
+		margin-left: 0%;
+	    margin-top: 0%;
+	    list-style: none;
+	    font-size: larger;
+	}
+
+	#listaIconesPai li h3, p{
+		font-size: 106%;
+	}
+
+	#listaIconesPai li img{
+		margin-left: 0%;
+	    margin-bottom: 0%;
+	    width: 100px;
+	}
+
+	#listaIconesPai ul{
+		margin-left: 15%;
+    	margin-right: 15%;
+    	margin-top: 0%;
+	}
+
+	.recursosFilhoMockup{
+		width: 100%;
+		margin-left: -19%;
+	}
+
+
+}
+
+@media screen and (max-width: 354px){
+	#mockupEsquerda{
+		width: 0;
+	}
+
+	#listaIconesPai li{
+		margin-left: 0%;
+	    margin-top: 0%;
+	    list-style: none;
+	    font-size: larger;
+	}
+
+	#listaIconesPai li h3, p{
+		font-size: 106%;
+	}
+
+	#listaIconesPai li img{
+		margin-left: 0%;
+	    margin-bottom: 0%;
+	    width: 100px;
+	}
+
+	#listaIconesPai ul{
+		margin-left: 15%;
+    	margin-right: 15%;
+    	margin-top: 0%;
+	}
+
+	.recursosFilhoMockup{
+		width: 100%;
+		margin-left: -19%;
+	}
+
+	.texto-banner h1 {
+    font-size: 60px;
+	}
+
+	h2 {
+		font-size: 70px;
+	}
+
+}
+
