@@ -171,6 +171,11 @@ font-size: 72px;
 	width: 35%;
 }
 
+
+.transformScale:hover{
+	transform: scale(1.1, 1.1);
+		border-radius: 10px;
+}
 #mockupEsquerda{
 	width: 800px;
     margin-left: 3.5%;
@@ -305,7 +310,7 @@ span{
 	margin: 0;
 }
 .footer img {
-	margin-left: 250%;
+	
     max-width: 160%
 }
 .footer h3 {
@@ -346,6 +351,11 @@ span{
 	display:inline-flex;
 	width: 70%;
 }
+
+.aClasse{
+	margin-left: 13%;
+}
+
 
 .social a{
 	padding-right: 20px;
