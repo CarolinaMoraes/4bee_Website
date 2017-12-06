@@ -310,7 +310,6 @@ span{
 	margin: 0;
 }
 .footer img {
-	
     max-width: 160%
 }
 .footer h3 {
@@ -516,6 +515,11 @@ font-family: "Bebas Neue";
     	margin-right: 15%;
     	margin-top: 0%;
     	text-align: center;
+	}
+
+	#listaIconesPai h3{
+		margin-bottom: 0%;
+		margin-top: 3.5%;
 	}
 
 	.recursosFilhoMockup{
