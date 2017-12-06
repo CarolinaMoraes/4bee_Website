@@ -370,6 +370,14 @@ span{
 	padding-top: 6px;
 }
 
+@media screen and (max-width: 1430px){
+	.beneficios{  width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+
 @media screen and (max-width: 800px){
 	.iphoneBranco{
 		display: none;
